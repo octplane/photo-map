@@ -1,0 +1,8 @@
+[package]
+name = "photo-map"
+version = "0.1.0"
+authors = ["Pierre BAILLET <pierre.baillet@datadoghq.com>"]
+
+[dependencies]
+
+rexif = { git = "https://github.com/elvis-epx/rexif.git" }
