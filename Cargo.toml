@@ -5,4 +5,4 @@ authors = ["Pierre BAILLET <pierre.baillet@datadoghq.com>"]
 
 [dependencies]
 
-rexif = { git = "https://github.com/elvis-epx/rexif.git" }
+rexif = { path = "../rexif" }
