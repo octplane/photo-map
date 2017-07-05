@@ -6,3 +6,16 @@ authors = ["Pierre BAILLET <pierre.baillet@datadoghq.com>"]
 [dependencies]
 
 rexif = { path = "../rexif" }
+rreverse = { path = "../../foreign/rust-reverse-geocoder" }
+websocket = "0.20.2"
+hyper = "*"
+
+[[bin]]
+
+name = "server"
+path = "src/server.rs"
+
+[[bin]]
+
+name = "cli"
+path = "src/main.rs"
