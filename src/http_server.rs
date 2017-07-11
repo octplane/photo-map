@@ -6,7 +6,7 @@ use staticfile::Static;
 use mount::Mount;
 
 
-pub fn start_service(ip_port: &str) -> Listening {
+pub fn start_http(ip_port: &str) -> Listening {
     println!("Serving HTTP on: {}", ip_port);
     Iron::new(get_mount())
         .http(ip_port)

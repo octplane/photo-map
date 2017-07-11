@@ -7,10 +7,10 @@ authors = ["Pierre BAILLET <pierre.baillet@datadoghq.com>"]
 
 rexif = { path = "../rexif" }
 rreverse = { path = "../rust-reverse-geocoder" }
-ws = "0.7"
 iron = "0.5.1"
 staticfile = "*"
 mount = "*"
+websocket = "0.20.2"
 
 [[bin]]
 
